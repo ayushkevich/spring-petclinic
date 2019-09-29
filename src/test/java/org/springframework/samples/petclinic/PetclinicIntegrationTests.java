@@ -33,8 +33,8 @@ public class PetclinicIntegrationTests {
 
     @Test
     public void testFindAll() throws Exception {
-//        throw new AssertionError("Something went wrong");
-        vets.findAll();
-        vets.findAll(); // served from cache
+        throw new AssertionError("Something went wrong");
+//        vets.findAll();
+//        vets.findAll(); // served from cache
     }
 }
